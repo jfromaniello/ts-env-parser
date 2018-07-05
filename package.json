@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha -r ts-node/register test/**/*.tests.ts",
-    "build": "rm -rf lib/* && tsc"
+    "build": "rm -rf lib/* && tsc",
+    "prepublish": "npm run build"
   },
   "author": {
     "name": "José F. Romaniello",
