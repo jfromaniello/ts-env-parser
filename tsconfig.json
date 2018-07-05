@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2015",
+      "es2015.symbol",
+      "es2017",
+      "es2017.intl"
+    ],
+    "target": "es6",
+    "declaration": true,
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./lib"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/",
+  ]
+}
